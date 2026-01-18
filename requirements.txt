@@ -1,0 +1,6 @@
+shiny==1.2.1
+scikit-learn==1.7.1
+joblib==1.4.2
+pandas==2.2.3
+numpy
+matplotlib
