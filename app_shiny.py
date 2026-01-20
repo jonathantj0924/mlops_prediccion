@@ -27,11 +27,6 @@ sys.modules['__main__'].ClusterSimilaridad = mis_funciones.ClusterSimilaridad
 modelo = joblib.load('modelo_entrenado.joblib')
 
 
-# ============================================
-# DATOS SIMULADOS PARA HISTOGRAMAS
-# ============================================
-
-
 import pandas as pd
 
 df = pd.read_csv('mis_datos_entrenamiento.csv')
@@ -463,4 +458,5 @@ app = App(app_ui, server)
 # Diseñé una interfaz reactiva en Shiny for Python 
 # que no solo entrega la predicción, sino que visualiza 
 # la posición del dato ingresado respecto a la distribución histórica
+
 # (los histogramas del centro), validando el resultado con un R² de 0.82 mediante Random Forest."
