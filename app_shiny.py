@@ -200,10 +200,10 @@ app_ui = ui.page_fluid(
                 ui.output_text_verbatim("prediccion"),
                 ui.output_ui("tarjetaprediccion"),
                 ui.card_footer(
-                    ui.div("RF RandomForest | RMSE: 47189.7 | Validación K-Fold", 
+                    ui.div("GLM LinearRegressor | RMSE: 47189.7 | Validación K-Fold", 
                         style="font-size: 0.75rem; color: #888; margin-bottom: 5px; border-bottom: 1px solid #eee;"),
                     ui.div(
-                        "© 2026 Jonathan ",
+                        "© 2026 JonathanTJ ",
                         ui.a(" | NoteBook", href="https://019bd848-2f51-1541-0b50-faa12f0a9b88.share.connect.posit.cloud/", target="_blank"),
                         style="font-size: 0.8rem; text-align: center;"
                     )
@@ -330,3 +330,4 @@ Cercanía al mar: {f[8]}
         return fig
 
 app = App(app_ui, server)
+
